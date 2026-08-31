@@ -4,9 +4,7 @@ description: >-
 author: Jan Wennrich
 lang: de
 
-theme: minima
-minima:
-  skin: auto
+theme: jekyll-theme-cayman
 
 # Jeder Tagebucheintrag liegt als eigene Markdown-Datei im Ordner _tage/,
 # z. B. _tage/tag1.md, _tage/tag2.md, ...
