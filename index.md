@@ -1,9 +1,6 @@
 ---
 layout: default
-title: Start
 ---
-
-# Vibecoding Bootcamp – Lerntagebuch
 
 Hier halte ich meine Lernerfolge und Erkenntnisse aus dem Vibecoding Bootcamp fest – ein Eintrag pro Tag.
 
