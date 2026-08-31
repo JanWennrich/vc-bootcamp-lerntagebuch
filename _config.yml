@@ -1,0 +1,37 @@
+title: Vibecoding Bootcamp Lerntagebuch
+description: >-
+  Persönliches Lerntagebuch zum Vibecoding Bootcamp – ein Eintrag pro Tag.
+author: Jan Wennrich
+lang: de
+
+theme: minima
+minima:
+  skin: auto
+
+# Jeder Tagebucheintrag liegt als eigene Markdown-Datei im Ordner _tage/,
+# z. B. _tage/tag1.md, _tage/tag2.md, ...
+collections:
+  tage:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "tage"
+    values:
+      layout: "tag"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - TEMPLATE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
