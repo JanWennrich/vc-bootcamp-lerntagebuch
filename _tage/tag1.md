@@ -10,7 +10,7 @@ date: 2026-08-31
 
 ## Was ich gebaut / ausprobiert habe
 
--
+- Dieses Repository eingerichtet
 
 ## Herausforderungen
 
