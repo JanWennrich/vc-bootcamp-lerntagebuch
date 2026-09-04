@@ -5,6 +5,8 @@ date: 2026-09-04
 
 ## Was ich heute gelernt habe
 
+*Diese Inhalte habe ich nicht im Vibecoding Bootcamp, sondern während meiner beruflichen Arbeit gelernt.*
+
 - Konsolenprogramme haben zwei Zielgruppen: Menschen brauchen hilfreiche Erklärungen, Skripte dagegen möglichst klare und maschinenlesbare Ausgaben. Deshalb kann der QUIQQER-Header bei `./console` und `./console --help` sichtbar bleiben, sollte bei konkreten Befehlen aber nicht den eigentlichen Output überdecken.
 - Verlässliche Automatisierung braucht definierte Exit-Codes. Beim Passwort-Reset unterscheiden die Codes nun Erfolg (`0`), Laufzeitfehler (`1`), nicht gefundene Benutzer:innen (`2`) und Abbruch (`3`). Ein aufrufendes Skript kann dadurch gezielt reagieren, ohne Textmeldungen parsen zu müssen.
 - Ein CLI-Befehl wird robuster, wenn er fachlich eindeutige Identifikatoren akzeptiert. Der Passwort-Reset kann Benutzer:innen deshalb sowohl über den Benutzernamen als auch über die UUID auflösen und zeigt vor der Bestätigung beide Werte an.
